@@ -17,70 +17,61 @@ var programme = [
   'hangSeconds': 5,
   'restSeconds': 10,
   'repetitions': 2,
-  'setRestSeconds': 30,
+  'setRestSeconds': 10,
   },
   {
   'set': '10 x Retractions',
   'pocket': 'Jugs',
   'fingers': '4 fingers',
   'hangSeconds': 7,
-  'restSeconds': 5,
+  'restSeconds': 10,
   'repetitions': 2,
-  'setRestSeconds': 20,
+  'setRestSeconds': 10,
   },
   {
   'set': '4 finger deadhang',
   'pocket': '4 finger deep',
   'fingers': '4 fingers',
   'hangSeconds': 4,
-  'restSeconds': 25,
+  'restSeconds': 10,
   'repetitions': 3,
-  'setRestSeconds': 30,
-  },
-  {
-  'set': '4 finger deadhang',
-  'pocket': '4 finger deep',
-  'fingers': '4 fingers',
-  'hangSeconds': 4,
-  'restSeconds': 25,
-  'repetitions': 3,
-  'setRestSeconds': 30,
+  'setRestSeconds': 10,
   },
   {
   'set': '3 finger deadhang',
   'pocket': '3 finger deep',
   'fingers': 'Front 3',
-  'hangSeconds': 3,
-  'restSeconds': 25,
+  'hangSeconds': 4,
+  'restSeconds': 10,
   'repetitions': 3,
-  'setRestSeconds': 30,
+  'setRestSeconds': 10,
   },
   {
   'set': '3 finger deadhang',
   'pocket': '3 finger deep',
   'fingers': 'Back 3',
   'hangSeconds': 3,
-  'restSeconds': 25,
+  'restSeconds': 10,
   'repetitions': 3,
-  'setRestSeconds': 30,
+  'setRestSeconds': 10,
   },
   {
   'set': 'Left sloper hang',
   'pocket': 'L sloper, R 4 finger',
   'fingers': 'Back 3',
-  'hangSeconds': 3,
-  'restSeconds': 20,
+  'hangSeconds': 4,
+  'restSeconds': 10,
   'repetitions': 3,
-  'setRestSeconds': 30,
+  'setRestSeconds': 10,
   },
   {
   'set': 'Right sloper hang',
   'pocket': 'R sloper, L 4 finger',
   'fingers': 'Back 3',
   'hangSeconds': 3,
-  'restSeconds': 20,
+  'restSeconds': 10,
   'repetitions': 3,
-  'setRestSeconds': 30,
+  'setRestSeconds': 10,
   }
 ];
 
@@ -204,7 +195,7 @@ const doNextRepetition = (d, set) => {
   return new Promise((resolve, reject) => {
     
     // Create an array of repetition hang seconds
-    const repetitionArray = new Array(set.repetitions).fill(set.hangSeconds);
+    const repetitionArray = new           Array(set.repetitions).fill(set.hangSeconds);
 
     console.log('Repetition: ' + (d + 1));
     
