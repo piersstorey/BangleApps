@@ -1,5 +1,0 @@
-require("Storage").write("climbon.info",{
-  "name":"Climb On",
-  "src":"climbon.app.js",
-  "icon":"app.png"
-});
