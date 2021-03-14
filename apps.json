@@ -2531,8 +2531,8 @@
   "tags": "",
   "allow_emulator":true,
   "storage": [
-    {"name":"climbon.app.js","url":"app.js"},
-    {"name":"climbon.img","url":"app-icon.js","evaluate":true}
+    {"name":"climbon.app.js","url":"climbon.app.js"},
+    {"name":"climbon.img","url":"climbon-icon.js","evaluate":true}
   ]
 }
 ]
